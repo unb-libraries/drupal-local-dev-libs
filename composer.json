@@ -18,7 +18,7 @@
     "conflict": {
         "drupal/drupal": "*"
     },
-    "description": "Project definition for unb-libraries/ide-dev-libs",
+    "description": "Project definition for unb-libraries/drupal-local-dev-libs",
     "extra": {
         "enable-patching": true,
         "installer-paths": {
@@ -44,7 +44,7 @@
     },
     "license": "MIT",
     "minimum-stability": "stable",
-    "name": "unb-libraries/ide-dev-libs",
+    "name": "unb-libraries/drupal-local-dev-libs",
     "prefer-stable": true,
     "repositories": [
         {
