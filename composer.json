@@ -82,8 +82,9 @@
             "DrupalProject\\composer\\ScriptHandler::checkComposerVersion"
         ],
         "install-drupal-cs-standard": [
-            "rm -rf ./vendor/squizlabs/php_codesniffer/src/Standards/Drupal ./vendor/squizlabs/php_codesniffer/src/Standards/Drupal",
-            "cp -r ./modules/contrib/coder/coder_sniffer/Drupal ./vendor/squizlabs/php_codesniffer/src/Standards/"
+            "rm -rf ./vendor/squizlabs/php_codesniffer/src/Standards/Drupal ./vendor/squizlabs/php_codesniffer/src/Standards/DrupalPractice",
+            "cp -r ./modules/contrib/coder/coder_sniffer/Drupal ./vendor/squizlabs/php_codesniffer/src/Standards/",
+            "cp -r ./modules/contrib/coder/coder_sniffer/DrupalPractice ./vendor/squizlabs/php_codesniffer/src/Standards/"
         ]
     },
     "type": "project"
